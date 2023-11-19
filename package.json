@@ -1,0 +1,24 @@
+{
+  "name": "spotify-now-playing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreampopsickle/spotify-now-playing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dreampopsickle/spotify-now-playing-app/issues"
+  },
+  "homepage": "https://github.com/Dreampopsickle/spotify-now-playing-app#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
